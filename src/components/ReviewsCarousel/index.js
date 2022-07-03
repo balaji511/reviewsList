@@ -25,7 +25,7 @@ class ReviewsCarousel extends Component {
           </button>
           <div className="dff">
             <img src={Item.imgUrl} className="img" alt={Item.username} />
-            <p>{Item.username}</p>
+            <h1>{Item.username}</h1>
             <p>{Item.description}</p>
           </div>
           <button type="button" onClick={this.high}>
